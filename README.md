@@ -1,6 +1,3 @@
-# vuejsProjectSetup
-
-> vuejs Project Setup
 
 ## Build Setup
 

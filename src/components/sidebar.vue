@@ -27,7 +27,6 @@
     <i class="el-icon-setting"></i>
     <span slot="title">Navigator Three</span>
   </el-menu-item>
-  <el-button type="success" round>Success</el-button>
 </el-menu>
 
 </div>

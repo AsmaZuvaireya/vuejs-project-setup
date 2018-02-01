@@ -5,6 +5,10 @@
     <router-view name="card" />
     <router-view name="columnsplitting" />
     <router-view name="simplecard" />
+    <router-view name="header" />
+    <router-view name="simpleheader" />
+    <router-view name="simpleform" />
+    <router-view name="buttonsAndTags" />
   </div>
 </template>
 
@@ -17,14 +21,14 @@ export default {
 </script>
 
 <style>
-#app {
+/*#app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+}*/
 
 
 .flexcol {

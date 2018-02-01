@@ -5,6 +5,10 @@ import sidebar from '@/components/sidebar'
 import card from '@/components/card'
 import columnsplitting from '@/components/columnsplitting'
 import simplecard from '@/components/simplecard'
+import header from '@/components/header'
+import simpleheader from '@/components/simpleheader'
+import simpleform from '@/components/simpleform'
+import buttonsAndTags from '@/components/buttonsAndTags'
 
 Vue.use(Router)
 
@@ -41,6 +45,34 @@ export default new Router({
       name: 'simplecard',
       components:{ 
       	simplecard : simplecard 
+      }
+    },
+     {
+      path: '/header',
+      name: 'header',
+      components:{ 
+      	header : header 
+      }
+    },
+     {
+      path: '/simpleheader',
+      name: 'simpleheader',
+      components:{ 
+      	simpleheader : simpleheader 
+      }
+    },
+    {
+      path: '/simpleform',
+      name: 'simpleform',
+      components:{ 
+      	simpleform : simpleform 
+      }
+    },
+    {
+      path: '/buttonsAndTags',
+      name: 'buttonsAndTags',
+      components:{ 
+      	buttonsAndTags : buttonsAndTags 
       }
     },
      
